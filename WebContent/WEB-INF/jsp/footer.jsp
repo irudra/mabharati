@@ -1,0 +1,1 @@
+<p style="align:left">Copyright &copy; Rudra Technology</p>
