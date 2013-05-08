@@ -7,6 +7,7 @@
       type="image/png" 
       href="/res/image/icon.png">
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" />
+ <link rel="stylesheet" href="/res/script/mabharatistyle.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 <script>
@@ -17,16 +18,9 @@
       $( "button" ).button();
   });
   </script>
-  <style>
-      .safroncolor{color: #FFFFFF;
-                   border: 1px solid #F4C430;
-                   background-image: url(http://i1316.photobucket.com/albums/t611/ma_bharati/buttonbackground1_zps29cfc635.jpg);
-      }
-      
-      .tricolor{background: #6c9730;
-  background: url('linear-gradient-stops.png') 0 0 repeat-y;
-  background: linear-gradient(to bottom, #F4C430, #FFFFFF, #138808);}
-  </style>
+  <style>.tricolor{
+  background: linear-gradient(to top,#138808, #FFFFFF 60%, #FFFFFF 60%, #FFFFFF 60%, #3BB9FF );}
+</style>
 </head>
 <body class="tricolor">
 <table cellpadding="2" cellspacing="2" Style="height:100%; width: 100%;">

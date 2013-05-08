@@ -1,0 +1,20 @@
+/* 
+    Document   : mabharatistyle
+    Created on : May 7, 2013, 9:28:02 AM
+    Author     : hemant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.safroncolor{color: #FFFFFF;
+                   border: 1px solid #F4C430;
+                   background-image: url(http://i1316.photobucket.com/albums/t611/ma_bharati/buttonbackground1_zps29cfc635.jpg);
+      }
+      
+      .tricolor{
+  background: linear-gradient(to top, #F4C430 10%, #FFFFFF 80%, #138808);}
+
