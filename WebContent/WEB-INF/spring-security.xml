@@ -17,7 +17,7 @@
 	<authentication-manager>
 	  <authentication-provider>
 	    <user-service>
-		<user name="mkyong" password="123456" authorities="ROLE_USER" />
+		<user name="admin" password="oothink1988" authorities="ROLE_USER" />
 	    </user-service>
 	  </authentication-provider>
 	</authentication-manager>

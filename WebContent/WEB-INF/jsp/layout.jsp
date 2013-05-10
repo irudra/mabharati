@@ -18,9 +18,7 @@
       $( "button" ).button();
   });
   </script>
-  <style>.tricolor{
-  background: linear-gradient(to top,#138808, #FFFFFF 60%, #FFFFFF 60%, #FFFFFF 60%, #3BB9FF );}
-</style>
+  
 </head>
 <body class="tricolor">
 <table cellpadding="2" cellspacing="2" Style="height:100%; width: 100%;">

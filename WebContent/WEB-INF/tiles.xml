@@ -16,7 +16,7 @@
         template="/WEB-INF/jsp/homeLayout.jsp">
         <put-attribute name="title" value="Ma Bharati" />
         <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
-        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/homemenu.jsp" />
         <put-attribute name="body" value="/WEB-INF/jsp/homeBody.jsp" />
         <put-attribute name="service" value="/WEB-INF/jsp/service.jsp" />
         <put-attribute name="shortDescription" value="/WEB-INF/jsp/shortDescription.jsp" />

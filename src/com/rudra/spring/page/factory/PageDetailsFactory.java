@@ -52,9 +52,9 @@ public class PageDetailsFactory implements IPageDetailsFactory {
 
     private void setHeaderList() {
         headerList.add(new HeaderMenu("home", "Home"));
-        headerList.add(new HeaderMenu("aboutUS", "About US"));
-        headerList.add(new HeaderMenu("events", "Events"));
-        headerList.add(new HeaderMenu("ourWork", "Our Work"));
+        headerList.add(new HeaderMenu("aboutUS/intial", "About US"));
+        headerList.add(new HeaderMenu("events/currentevents", "Events"));
+        headerList.add(new HeaderMenu("ourWork/education", "Our Work"));
         headerList.add(new HeaderMenu("thankYou", "Thank You"));
         headerList.add(new HeaderMenu("contactUs", "Contact Us"));
     }

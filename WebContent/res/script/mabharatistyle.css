@@ -9,12 +9,20 @@
 root { 
     display: block;
 }
+p{
+    color: #246BB2;
+}
+.safroncolor{color: #85ADFF;
+             background-image: url(/res/image/home.jpg);
+}
+a.login{
+    float: right; margin-right: 10px
+}
 
-.safroncolor{color: #FFFFFF;
-                   border: 1px solid #F4C430;
-                   background-image: url(http://i1316.photobucket.com/albums/t611/ma_bharati/buttonbackground1_zps29cfc635.jpg);
-      }
-      
-      .tricolor{
-  background: linear-gradient(to top, #F4C430 10%, #FFFFFF 80%, #138808);}
+.tricolor{
+    background: linear-gradient(to bottom, #FFFFFF, #B2D1FF);
+}
 
+.menulink{
+    text-decoration:none;
+}

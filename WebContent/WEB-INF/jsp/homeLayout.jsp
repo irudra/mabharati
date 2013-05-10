@@ -14,6 +14,8 @@
       href="/res/image/icon.png">
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" />
  <link rel="stylesheet" href="/res/script/mabharatistyle.css" />
+ <link rel="stylesheet" href="/res/script/js-image-slider.css" />
+ <script type="text/javascript" src="/res/script/js-image-slider.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 <script>
@@ -24,12 +26,9 @@
       $( "button" ).button();
   });
   </script>
-  <style>.tricolor{
-  background: linear-gradient(to top,#138808, #FFFFFF 60%, #FFFFFF 60%, #FFFFFF 60%, #3BB9FF );}
-</style>
 </head>
-<body class="tricolor">
-<table cellpadding="2" cellspacing="2" Style="height:100%; width: 100%;">
+<body class="tricolor" >
+<table cellpadding="2" cellspacing="2" Style=" margin-left: 50px;height:100%; width: 93%;">
     <tr  Style="height:10%">
         <td colspan="2"><tiles:insertAttribute name="header" />
         </td>
@@ -37,16 +36,16 @@
     
     <tr  Style="height:50%">
         <td Style="width:30%" valign="top"><tiles:insertAttribute name="menu" /></td>
-        <td Style="width:70%"><tiles:insertAttribute name="body" /></td>
+        <td Style="width:70%; background-color: #001433;"><tiles:insertAttribute name="body" /></td>
     </tr>
     <tr cellpadding="4" Style="height:10%; width: 100%">
         <td colspan="2"><tiles:insertAttribute name="service" />
         </td>
     </tr>
     <tr Style="height:20%">
-        <td height="30" colspan="2"><tiles:insertAttribute name="shortDescription" />
+        <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortDescription" />
         </td>
-        <td height="30" colspan="2"><tiles:insertAttribute name="shortEvents" />
+        <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortEvents" />
         </td>
     </tr>
     <tr Style="height:10%">

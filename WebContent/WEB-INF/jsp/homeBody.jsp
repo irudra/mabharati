@@ -4,4 +4,8 @@
     Author     : hemant
 --%>
 
-<div><h1>i am home body</h1></div>
+<div id="slider">
+    <img src="/res/image/slide1.jpg" />
+     <img src="/res/image/slide2.jpg" />
+     <img src="/res/image/slide3.jpg" />
+</div>
