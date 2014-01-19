@@ -18,7 +18,7 @@
             <br> <br>
             <div style="height:70%">
                 <c:if test="${login=='true'}">
-                    <h3>Hello ${username}</h3
+                    <h3>Hello ${username}</h3>
                     <br>
                 </c:if>
                 <h3 >

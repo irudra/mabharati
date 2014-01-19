@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="ma-bharati">
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mabharati1.1">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="java-output-path" value="/ma-bharati/build/classes"/>
-        <property name="context-root" value="/mabharati"/>
+        <property name="java-output-path" value="/mabharati1.1/build/classes"/>
+        <property name="context-root" value="/"/>
     </wb-module>
 </project-modules>
