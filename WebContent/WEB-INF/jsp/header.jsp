@@ -23,9 +23,19 @@
                 </c:if>
                 <h3 >
                     <nav>
-                        <c:forEach items="${pagedetails.headerList}" var="button">
-                            <a href="/${button.url}" style="margin-bottom:0px"><button >${button.displayValue}</button></a>
+                    <ul class="ui-menu" id="menuheader">
+                      <c:forEach items="${pagedetails.headerList}" var="button">
+                        <li>
+                            <a href="/${button.url}" class =".ui-menu-item" >${button.displayValue}</a>
+                            </li>
                             </c:forEach>
+                            </ul>
                     </nav></h3>
             </div>
         </div>
+        
+        <script>
+  $(function() {
+    $("#menuheader").menu();
+  });
+  </script>

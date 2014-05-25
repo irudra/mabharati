@@ -40,23 +40,23 @@ public class ContactController {
     @RequestMapping(value = "/aboutUS", method = RequestMethod.GET)
     public ModelAndView showAboutUS() {
         System.out.println("in page ");
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("aboutUS", null));
+        return new ModelAndView("aboutUS", "pagedetails", factory.getPageDetails("aboutUS", null));
     }
 
     @RequestMapping(value = "/ourWork", method = RequestMethod.GET)
     public ModelAndView showOurWork() {
         System.out.println("in page ");
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("ourWork", null));
+        return new ModelAndView("ourWork", "pagedetails", factory.getPageDetails("ourWork", null));
     }
 
     @RequestMapping(value = "/thankYou", method = RequestMethod.GET)
     public ModelAndView showThankYou() {
         System.out.println("in page ");
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("thankYou", null));
+        return new ModelAndView("thankYou", "pagedetails", factory.getPageDetails("thankYou", null));
     }
 
     @RequestMapping(value = "/contactUs", method = RequestMethod.GET)
-    public ModelAndView showContactUs() {
+    public ModelAndView showContactUs() { 
         System.out.println("in page ");
         return new ModelAndView("body", "pagedetails", factory.getPageDetails("contactUs", null));
     }
@@ -64,7 +64,7 @@ public class ContactController {
     @RequestMapping(value = "/events", method = RequestMethod.GET)
     public ModelAndView showEvents() {
         System.out.println("in page ");
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("events", null));
+        return new ModelAndView("events", "pagedetails", factory.getPageDetails("events", null));
     }
 
     @RequestMapping(value = "/events/{sidePane}", method = RequestMethod.GET)

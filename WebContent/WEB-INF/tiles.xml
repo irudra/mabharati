@@ -12,6 +12,10 @@
         <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
     </definition>
     
+    <definition name="empty.definition" template="/WEB-INF/jsp/Emptylayout.jsp">
+        <put-attribute name="content" value="" />
+    </definition>
+    
     <definition name="home"
         template="/WEB-INF/jsp/homeLayout.jsp">
         <put-attribute name="title" value="Ma Bharati" />
@@ -35,23 +39,28 @@
     </definition>
     
     <definition name="body" extends="base.definition">
-    	<put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
-        <put-attribute name="title" value="Ma Bharati" />
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="menu" value="" />
         <put-attribute name="body" value="/WEB-INF/jsp/body.jsp" />
+        <put-attribute name="footer" value="" />
     </definition>
     
     <definition name="aboutUS" extends="base.definition">
         <put-attribute name="title" value="About US" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
         <put-attribute name="body" value="/WEB-INF/jsp/aboutUS.jsp" />
     </definition>
     
     <definition name="events" extends="base.definition">
         <put-attribute name="title" value="Events" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
         <put-attribute name="body" value="/WEB-INF/jsp/events.jsp" />
     </definition>
     
     <definition name="ourWork" extends="base.definition">
         <put-attribute name="title" value="Our Work" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
         <put-attribute name="body" value="/WEB-INF/jsp/ourWork.jsp" />
     </definition>
     
@@ -61,8 +70,9 @@
     </definition>
     
      <definition name="thankYou" extends="base.definition">
-        <put-attribute name="title" value="Thank you" />
-        <put-attribute name="body" value="/WEB-INF/jsp/thankYou.jsp" />
+     <put-attribute name="title" value="Thank You" />
+     <put-attribute name="menu" value="" />
+     <put-attribute name="body" value="/WEB-INF/jsp/thankYou.jsp" />
     </definition>
     
     <definition name="login" extends="base.definition">

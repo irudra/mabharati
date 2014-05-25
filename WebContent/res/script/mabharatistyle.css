@@ -12,9 +12,12 @@ root {
 p{
     color: #246BB2;
 }
+
 .safroncolor{color: #85ADFF;
              background-image: url(/res/image/home.jpg);
 }
+
+
 a.login{
     float: right; margin-right: 10px
 }
@@ -23,6 +26,27 @@ a.login{
     background: linear-gradient(to bottom, #FFFFFF, #B2D1FF);
 }
 
+ul {
+	background:transparent;
+	list-style: none;
+	}
+
 .menulink{
     text-decoration:none;
+}
+.ui-menu:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.ui-menu .ui-menu-item {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
 }
