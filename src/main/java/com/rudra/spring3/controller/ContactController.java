@@ -78,6 +78,12 @@ public class ContactController {
         System.out.println("page name-side pane-" + sidePane);
         return new ModelAndView("body", "pagedetails", factory.getPageDetails("ourWork", sidePane));
     }
+    
+    @RequestMapping(value = "/thankYou/{sidePane}", method = RequestMethod.GET)
+    public ModelAndView showThankYou(@PathVariable(value = "sidePane") String sidePane) {
+        System.out.println("page name-side pane-" + sidePane);
+        return new ModelAndView("body", "pagedetails", factory.getPageDetails("ThankYou", sidePane));
+    }
 
     @RequestMapping(value = "/aboutUS/{sidePane}", method = RequestMethod.GET)
     public ModelAndView showAboutUS2(@PathVariable(value = "sidePane") String sidePane) {

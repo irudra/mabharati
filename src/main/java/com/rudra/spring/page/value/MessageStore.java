@@ -79,7 +79,7 @@ public class MessageStore {
             this.aboutus.put("vision", "I am vision");
         }
     }
-
+    
     public void setContactus(Map<String, String> contactus) {
         this.contactus = contactus;
     }
@@ -110,7 +110,13 @@ public class MessageStore {
     }
 
     public void setThankyou(Map<String, String> thankyou) {
-        this.thankyou = thankyou;
+    	this.thankyou.put("education", "I am education");
+        this.thankyou.put("selfhelp", "I am self help");
+        this.thankyou.put("gauprotection", "I am gau protection");
+        this.thankyou.put("socialconcern", "I am social concern");
+        this.thankyou.put("howwe", "I am how we");
+        this.thankyou.put("bewithus", "I am be with us");
+        this.thankyou.put("suggestion", "I am suggestion");
     }
 
     public String getMessage(String pageName, String paneName) {

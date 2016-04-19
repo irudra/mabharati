@@ -32,6 +32,9 @@ public class PageDetailsFactory implements IPageDetailsFactory {
         sidePaneList.put("ourwork", new EnumOurWork[]{EnumOurWork.EDUCATION, EnumOurWork.SELFHELP,
             EnumOurWork.GAUPROTECTION, EnumOurWork.SOCIALCONCERN, EnumOurWork.HOWWE,
             EnumOurWork.BEWITHUS, EnumOurWork.SUGGESTION});
+        sidePaneList.put("thankyou", new EnumOurWork[]{EnumOurWork.EDUCATION, EnumOurWork.SELFHELP,
+                EnumOurWork.GAUPROTECTION, EnumOurWork.SOCIALCONCERN, EnumOurWork.HOWWE,
+                EnumOurWork.BEWITHUS, EnumOurWork.SUGGESTION});
     }
 
     public static PageDetailsFactory getFactory() {
