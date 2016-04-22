@@ -26,28 +26,31 @@
   });
   </script>
 </head>
-<body class="tricolor" >
-<table cellpadding="2" cellspacing="2" Style=" height:100%">
+<body>
+<table Style="width:100%">
     <tr  Style="height:10%">
         <td colspan="2"><tiles:insertAttribute name="header" />
         </td>
     </tr>
     
-    <tr  Style="height:50%">
-        <td Style="width:30%" valign="top"><tiles:insertAttribute name="menu" /></td>
-        <td Style="width:70%; background-color: #001433;"><tiles:insertAttribute name="body" /></td>
+    <tr>
+        <td colspan="2" Style="background-color: #001433;"><tiles:insertAttribute name="body" /></td>
     </tr>
-    <tr cellpadding="4" Style="height:10%; width: 100%">
+    <tr>
+        <td colspan="2"><tiles:insertAttribute name="menu" />
+        </td>
+    </tr>
+    <tr cellpadding="4">
         <td colspan="2"><tiles:insertAttribute name="service" />
         </td>
     </tr>
-    <tr Style="height:20%">
+    <tr>
         <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortDescription" />
         </td>
         <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortEvents" />
         </td>
     </tr>
-    <tr Style="height:10%">
+    <tr>
         <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
         </td>
     </tr>
