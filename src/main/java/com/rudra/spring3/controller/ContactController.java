@@ -58,7 +58,7 @@ public class ContactController {
     @RequestMapping(value = "/contactUs", method = RequestMethod.GET)
     public ModelAndView showContactUs() { 
         System.out.println("in page ");
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("contactUs", null));
+        return new ModelAndView("contactUs", "pagedetails", factory.getPageDetails("contactUs", null));
     }
 
     @RequestMapping(value = "/events", method = RequestMethod.GET)

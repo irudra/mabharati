@@ -28,7 +28,7 @@
 </head>
 <body>
 <table Style="width:100%">
-    <tr  Style="height:10%">
+    <tr>
         <td colspan="2"><tiles:insertAttribute name="header" />
         </td>
     </tr>

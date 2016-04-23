@@ -21,6 +21,7 @@ a.login{
 
 .tricolor{
     background: linear-gradient(to bottom, #FFFFFF, #B2D1FF);
+    padding-top: 40;
 }
 
 ul {
@@ -86,7 +87,7 @@ body {
     }
   }
   .bg-1 {
-      background: #2d2d30;
+      background: #030333;
       color: #bdbdbd;
   }
   .bg-1 h3 {color: #fff;}
@@ -141,11 +142,10 @@ body {
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-      background-color: #2d2d30;
+      background-color: #020246;
       border: 0;
       font-size: 11px !important;
       letter-spacing: 4px;
-      opacity: 0.9;
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;

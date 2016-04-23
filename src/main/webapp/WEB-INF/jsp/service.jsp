@@ -4,13 +4,13 @@
     Author     : hemant
 --%>
 
-<div style="height: 100%;width: 100%">
-    <table border="1" style="height: 100%;width: 100%">
+<div style="height: 100%;width: 100%" class="container">
+    <table style="height: 100%;width: 100%">
         <tbody>
             <tr>
-                <td style="width: 33%"><div>I am first service. here I will describe some important service</div></td>
-                <td style="width: 33%"><div>I am second service. here I will describe some important service<div></td>
-                <td style="width: 33%"><div>i am third service.here I will describe some important service</div></td>
+                <td style="width: 33%" ><h3 class="text-center">I am first service. here I will describe some important service</h3></td>
+                <td style="width: 33%" ><h3 class="text-center">I am second service. here I will describe some important service</h3></td>
+                <td style="width: 33%" ><h3 class="text-center">i am third service.here I will describe some important service</h3></td>
             </tr>
         </tbody>
     </table>

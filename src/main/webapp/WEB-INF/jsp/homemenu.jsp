@@ -13,7 +13,7 @@
           <img src="/res/image/slide2.jpg" alt="Paris" width="400" height="300">
           <p><strong>Paris</strong></p>
           <p>Friday 27 November 2015</p>
-          <a href="/aboutUS/vision" >POWER</a>
+          <a href="/aboutUS" >POWER</a>
         </div>
       </div>
       <div class="col-sm-4">
@@ -21,7 +21,7 @@
           <img src="/res/image/slide2.jpg" alt="New York" width="400" height="300">
           <p><strong>New York</strong></p>
           <p>Saturday 28 November 2015</p>
-          <a href="/ourWork/howwe" >how we</a>
+          <a href="/ourWork" >how we</a>
         </div>
       </div>
       <div class="col-sm-4">
@@ -29,7 +29,7 @@
           <img src="/res/image/slide2.jpg" alt="San Francisco" width="400" height="300">
           <p><strong>San Francisco</strong></p>
           <p>Sunday 29 November 2015</p>
-          <a href="/aboutUS/family" >family</a>
+          <a href="/aboutUS" >family</a>
         </div>
       </div>
     </div>
