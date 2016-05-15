@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+        template="/WEB-INF/jsp/layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+    </definition>
+    
+    <definition name="empty.definition" template="/WEB-INF/jsp/Emptylayout.jsp">
+        <put-attribute name="content" value="" />
+    </definition>
+    
+    <definition name="home"
+        template="/WEB-INF/jsp/homeLayout.jsp">
+        <put-attribute name="title" value="Ma Bharati" />
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/homemenu.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/homeBody.jsp" />
+        <put-attribute name="service" value="/WEB-INF/jsp/service.jsp" />
+        <put-attribute name="shortDescription" value="/WEB-INF/jsp/shortDescription.jsp" />
+        <put-attribute name="shortEvents" value="/WEB-INF/jsp/shortEvents.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+    </definition>
+    
+    <definition name="contact" extends="base.definition">
+        <put-attribute name="title" value="Contact Manager" />
+        <put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
+    </definition>
+    
+    <definition name="contact3" extends="base.definition">
+        <put-attribute name="title" value="Contact 7 Manager" />
+        <put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
+    </definition>
+    
+    <definition name="body" extends="base.definition">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="menu" value="" />
+        <put-attribute name="body" value="/WEB-INF/jsp/body.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+    
+    <definition name="eventTable" extends="base.definition">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="menu" value="" />
+        <put-attribute name="body" value="/WEB-INF/jsp/EventTable.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+    
+    <definition name="aboutUS" extends="base.definition">
+        <put-attribute name="title" value="About US" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/aboutUS.jsp" />
+    </definition>
+    
+    <definition name="events" extends="base.definition">
+        <put-attribute name="title" value="Events" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/events.jsp" />
+    </definition>
+    
+    <definition name="ourWork" extends="base.definition">
+        <put-attribute name="title" value="Our Work" />
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/ourWork.jsp" />
+    </definition>
+    
+    <definition name="contactUs" extends="base.definition">
+        <put-attribute name="title" value="Contact Us" />
+        <put-attribute name="body" value="/WEB-INF/jsp/contactUs.jsp" />
+    </definition>
+    
+     <definition name="thankYou" extends="base.definition">
+     <put-attribute name="title" value="Thank You" />
+     <put-attribute name="menu" value="" />
+     <put-attribute name="body" value="/WEB-INF/jsp/thankYou.jsp" />
+    </definition>
+    
+    <definition name="login" extends="base.definition">
+        <put-attribute name="title" value="welcome" />
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+    </definition>
+ 
+</tiles-definitions>
