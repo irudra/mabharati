@@ -104,6 +104,7 @@ body {
       padding: 0 0 15px 0;
       border: none;
       border-radius: 0;
+      box-shadow: 0 1px 5px 0 #331616;
   }
   .thumbnail p {
       margin-top: 15px;
@@ -261,5 +262,9 @@ body {
 }
 .mg-btm{
 	margin-bottom:20px;
+}
+
+.border{
+	box-shadow: 0 1px 5px 0 #c1c1c1;
 }
   

@@ -46,6 +46,14 @@
         <put-attribute name="footer" value="" />
     </definition>
     
+    <definition name="eventTable" extends="base.definition">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="menu" value="" />
+        <put-attribute name="body" value="/WEB-INF/jsp/EventTable.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+    
     <definition name="aboutUS" extends="base.definition">
         <put-attribute name="title" value="About US" />
         <put-attribute name="menu" value="/WEB-INF/jsp/menu_modified.jsp" />

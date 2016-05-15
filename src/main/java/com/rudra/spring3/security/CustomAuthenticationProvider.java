@@ -43,6 +43,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         roles.add(role);
 
    		User user = new User("admin", "oothink1988", roles);
+   		System.out.println("paased from here");
         return new UsernamePasswordAuthenticationToken(user, password, roles);
     }
  

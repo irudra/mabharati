@@ -7,11 +7,27 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import com.google.gson.Gson;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.util.JSON;
 import com.rudra.spring.page.factory.IPageDetailsFactory;
 import com.rudra.spring.page.factory.PageDetailsFactory;
 import com.rudra.spring.page.value.Message;
+import com.rudra.spring.page.value.PageDetails;
+import com.rudra.spring3.data.Event;
+import com.rudra.spring3.data.Events;
 import com.rudra.spring3.form.Contact;
+import com.rudra.spring3.persistence.mongo.DataProvider;
+import com.rudra.spring3.persistence.mongo.EventsProvider;
+
+import java.net.UnknownHostException;
 import java.security.Principal;
+import java.util.List;
+
 import org.springframework.ui.ModelMap;
 
 @Controller
@@ -70,7 +86,8 @@ public class ContactController {
     @RequestMapping(value = "/events/{sidePane}", method = RequestMethod.GET)
     public ModelAndView showEvents(@PathVariable(value = "sidePane") String sidePane) {
         System.out.println("page name-side pane-" + sidePane);
-        return new ModelAndView("body", "pagedetails", factory.getPageDetails("events", sidePane));
+        DataProvider<Events> dataProvider = EventsProvider.getInstance();
+        return new ModelAndView("eventTable", "events", dataProvider.getData());
     }
 
     @RequestMapping(value = "/ourWork/{sidePane}", method = RequestMethod.GET)

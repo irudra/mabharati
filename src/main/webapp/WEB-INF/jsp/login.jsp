@@ -5,13 +5,14 @@
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %> 
     <div class="container">
-		<form class="form-signin mg-btm" role="form" name='f' action="<c:url value='j_spring_security_check' />" method='POST'>
+		<form:form class="form-signin mg-btm" name='f' action="/login" method='POST'>
     	<h3 class="heading-desc">Welcome</h3>
 		<div class="main">	
 		<input type="text" class="form-control" name='j_username' placeholder="Email" autofocus>
         <input type="password" class="form-control" name='j_password' placeholder="Password">
-		 
+		 <input type="hidden"name="${_csrf.parameterName}" value="${_csrf.token}"/>
         Are you a business? <a href=""> Get started here</a>
 		<span class="clearfix"></span>	
         </div>
@@ -29,6 +30,6 @@
                     </div>
 		
 		</div>
-      </form>
+      </form:form>
 </div>
 	
