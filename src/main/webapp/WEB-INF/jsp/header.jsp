@@ -24,10 +24,18 @@
           <ul class="dropdown-menu">
             <li><a href="#">Merchandise</a></li>
             <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li> 
+            <li><a href="/login">login</a></li> 
           </ul>
         </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        <li>
+        <c:choose>
+   			<c:when test="${pageContext['request'].userPrincipal == null}">
+   				<a href="/login">login${pageContext.request.userPrincipal.name}</a>
+    		</c:when>    
+    		<c:otherwise>
+       			<a href="/logout">${pageContext.request.userPrincipal.name} </a>
+    		</c:otherwise>
+		</c:choose></li>
       </ul>
     </div>
   </div>

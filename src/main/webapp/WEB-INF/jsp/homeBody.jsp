@@ -14,26 +14,26 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="/res/image/slide1.jpg" alt="New York" width="1200" height="700">
+        <img src="/res/image/Story4.jpg" alt="New York" class="img-responsive">
         <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
+          <h3 style="color: black;">Help</h3>
+          <p style="color: black;">Helping others is the best way to help yourself.</p>
         </div>      
       </div>
 
       <div class="item">
-        <img src="/res/image/slide2.jpg" alt="Chicago" width="1200" height="700">
+        <img src="/res/image/children.jpg" alt="Chicago" class="img-responsive">
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago - A night we won't forget.</p>
+          <h3>Children Education</h3>
+          <p>Every child gets education is your aim.</p>
         </div>      
       </div>
     
       <div class="item">
-        <img src="/res/image/slide3.jpg" alt="Los Angeles" width="1200" height="700">
+        <img src="/res/image/village.jpg" alt="Los Angeles" class="img-responsive">
         <div class="carousel-caption">
-          <h3>LA</h3>
-          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+          <h3>Rebuilding the village economy</h3>
+          <p>Help villages to help Uttarakhand !</p>
         </div>      
       </div>
     </div>
