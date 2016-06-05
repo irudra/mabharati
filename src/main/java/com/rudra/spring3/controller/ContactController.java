@@ -9,13 +9,16 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.google.gson.Gson;
 import com.rudra.spring.page.factory.IPageDetailsFactory;
 import com.rudra.spring.page.factory.PageDetailsFactory;
 import com.rudra.spring.page.value.Message;
 import com.rudra.spring3.form.Contact;
+import com.rudra.spring3.form.ContactFrom;
 import com.rudra.spring3.persistence.mongo.EventsProvider;
 
 @Controller
@@ -66,6 +69,15 @@ public class ContactController {
         return new ModelAndView("contactUs", "pagedetails", factory.getPageDetails("contactUs", null));
     }
 
+    @RequestMapping(value = "/contactUs", method = RequestMethod.POST)
+    @ResponseBody
+    public ModelAndView showContactUs(String json) { 
+    	Gson gson = new Gson();
+    	ContactFrom form = gson.fromJson(json, ContactFrom.class);
+        System.out.println("in page ++"+form.getFirstName());
+        return new ModelAndView("contactUs", "pagedetails", factory.getPageDetails("contactUs", null));
+    }
+    
     @RequestMapping(value = "/ourWork/{sidePane}", method = RequestMethod.GET)
     public ModelAndView showOurWork(@PathVariable(value = "sidePane") String sidePane) {
         System.out.println("page name-side pane-" + sidePane);

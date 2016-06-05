@@ -23,6 +23,11 @@
 					<label for="name">Event Name</label> <input type="text"
 						class="form-control" id="name" placeholder="Event name">
 				</fieldset>
+<fieldset class="form-group">
+					<label for="name">Image(please add photo URL, we will not upload photo)</label>
+					<input type='text' id="imageUrl"onchange="readURL();" />
+					<img id="image" src="#" alt="your image" />
+				</fieldset>    
 
 				<fieldset class="form-group">
 					<label for="shortdescription">Event Short Description</label> <input

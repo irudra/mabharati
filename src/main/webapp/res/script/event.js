@@ -6,10 +6,10 @@ $(function() {
 	    	var name=$("#name").val();
 	    	var short=$("#description").val();
 	    	var date =$("#datepicker").val();
-
+	    	var image = $("#imageUrl").val();
 	    	var description=$("#description").val();
 
-var json ={ "imageUrl" : "/res/image/Story4.jpg" , "header" : name , "description" : description , "eventDate" : date, "eventUser" : "admin"};
+var json ={ "imageUrl" : image , "header" : name , "description" : description , "eventDate" : date, "eventUser" : "admin"};
 
 	    	var data = JSON.stringify(json);
 	    	alert(data);
@@ -29,3 +29,11 @@ var json ={ "imageUrl" : "/res/image/Story4.jpg" , "header" : name , "descriptio
 	  	});
   });
 
+function readURL() {
+    if ($("#imageUrl").val()!='') {
+    	 $('#image')
+         .attr('src', $("#imageUrl").val())
+         .width(150)
+         .height(200);
+    }
+}

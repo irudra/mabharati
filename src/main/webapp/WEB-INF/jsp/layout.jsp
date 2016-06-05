@@ -1,7 +1,9 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<sec:csrfMetaTags/>
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 <link rel="icon" 
       type="image/png" 
