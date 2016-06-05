@@ -12,7 +12,7 @@
         <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
     </definition>
     
-    <definition name="empty.definition" template="/WEB-INF/jsp/Emptylayout.jsp">
+    <definition name="empty.definition" template="/WEB-INF/jsp/emptyLayout.jsp">
         <put-attribute name="content" value="" />
     </definition>
     
@@ -38,20 +38,20 @@
         <put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
     </definition>
     
-    <definition name="body" extends="base.definition">
-        <put-attribute name="title" value="" />
-        <put-attribute name="header" value="" />
-        <put-attribute name="menu" value="" />
-        <put-attribute name="body" value="/WEB-INF/jsp/body.jsp" />
-        <put-attribute name="footer" value="" />
+    <definition name="body" extends="empty.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/body.jsp" />
     </definition>
     
-    <definition name="eventTable" extends="base.definition">
-        <put-attribute name="title" value="" />
-        <put-attribute name="header" value="" />
-        <put-attribute name="menu" value="" />
-        <put-attribute name="body" value="/WEB-INF/jsp/EventTable.jsp" />
-        <put-attribute name="footer" value="" />
+    <definition name="eventTable" extends="empty.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/EventTable.jsp" />
+    </definition>
+    
+    <definition name="addevents" extends="empty.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/addevents.jsp" />
+    </definition>
+    
+    <definition name="success" extends="empty.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/success.jsp" />
     </definition>
     
     <definition name="aboutUS" extends="base.definition">
