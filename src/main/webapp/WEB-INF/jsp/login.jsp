@@ -10,9 +10,8 @@
 		<form:form class="form-signin mg-btm" name='f' action="/login" method='POST'>
     	<h3 class="heading-desc">Welcome</h3>
 		<div class="main">	
-		<input type="text" class="form-control" name='j_username' placeholder="Email" autofocus>
-        <input type="password" class="form-control" name='j_password' placeholder="Password">
-		 <input type="hidden"name="${_csrf.parameterName}" value="${_csrf.token}"/>
+		<input type="text" class="form-control" name='username' placeholder="Email" autofocus>
+        <input type="password" class="form-control" name='password' placeholder="Password">
         Are you a business? <a href=""> Get started here</a>
 		<span class="clearfix"></span>	
         </div>
