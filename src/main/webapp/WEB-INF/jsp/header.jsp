@@ -18,15 +18,6 @@
         <c:forEach items="${pagedetails.headerList}" var="button">
 					<li><a href="/${button.url}" >${button.displayValue}</a></li>
 		</c:forEach>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="/login">login</a></li> 
-          </ul>
-        </li>
         <li>
         <c:choose>
    			<c:when test="${pageContext['request'].userPrincipal == null}">
