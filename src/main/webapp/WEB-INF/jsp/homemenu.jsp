@@ -10,7 +10,7 @@
      <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="/res/image/Story4.jpg" alt="About us" width="400" height="300">
+          <img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/Story4.jpg" alt="About us" width="400" height="300">
           <p><strong>Know us</strong></p>
           <p>We are you to <br> help you.<br><br></p>
           <a href="/aboutUS" >About us</a>
@@ -18,7 +18,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="/res/image/Story4.jpg" alt="Our work" width="400" height="300">
+          <img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/Story4.jpg" alt="Our work" width="400" height="300">
           <p><strong>What we do</strong></p>
           <p>We work to make <br>this world a better place<br><br></p>
           <a href="/ourWork" >Our work</a>
@@ -26,7 +26,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="/res/image/Story4.jpg" alt="San Francisco" width="400" height="300">
+          <img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/Story4.jpg" alt="San Francisco" width="400" height="300">
           <p><strong>Events</strong></p>
           <p>We are continuously working to make this world a better place. Find out what is the next challenge we have.</p>
           <a href="/aboutUS" >Events</a>

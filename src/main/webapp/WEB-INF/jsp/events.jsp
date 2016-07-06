@@ -3,7 +3,7 @@
 			<h1>Events</h1>
 			<div class="frame2">
 				<div class="box">
-					<img src="/res/image/children.jpg" alt="Img" height="298" width="924">
+					<img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/children.jpg" alt="Img" height="298" width="924">
 				</div>
 			</div>
 			<h2>We Have Free Templates for Everyone</h2>

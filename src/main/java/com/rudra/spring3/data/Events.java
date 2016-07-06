@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Events {
-List<Event> events = new ArrayList<>();
+List<Event> events = new ArrayList();
 
 public List<Event> getEvents() {
 	return Collections.unmodifiableList(events);

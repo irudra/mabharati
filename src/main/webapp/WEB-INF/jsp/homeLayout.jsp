@@ -11,7 +11,7 @@
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 <link rel="icon" 
       type="image/png" 
-      href="/res/image/icon.png">
+      href="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/icon.png">
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" />
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <link rel="stylesheet" href="/res/script/mabharatistyle.css" />

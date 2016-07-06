@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.google.gson.Gson;
+import com.rudra.mail.MaiLSender;
+import com.rudra.mail.MailSenderImpl;
 import com.rudra.spring.page.factory.IPageDetailsFactory;
 import com.rudra.spring.page.factory.PageDetailsFactory;
 import com.rudra.spring.page.value.Message;
@@ -74,6 +76,8 @@ public class ContactController {
     public ModelAndView showContactUs(String json) { 
     	Gson gson = new Gson();
     	ContactFrom form = gson.fromJson(json, ContactFrom.class);
+    	MaiLSender sender = MailSenderImpl.getMailSender();
+    	sender.sendMail(form);
         System.out.println("in page ++"+form.getFirstName());
         return new ModelAndView("contactUs", "pagedetails", factory.getPageDetails("contactUs", null));
     }
