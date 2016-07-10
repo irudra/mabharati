@@ -6,7 +6,7 @@
 		<div class="clearfix">
 			<div class="sidebar">
 				<div>
-					<h2>Our Lawyers</h2>
+					<h2>Meesage</h2>
 					<p>
 						${pagedetails.message.message}
 					</p>
