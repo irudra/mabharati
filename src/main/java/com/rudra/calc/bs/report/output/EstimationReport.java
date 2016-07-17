@@ -1,11 +1,23 @@
 package com.rudra.calc.bs.report.output;
 
+import java.util.List;
+
+import com.rudra.calc.bs.report.MonthlyReport;
+
 public class EstimationReport {
 
 	private DepositReport depositReport;
 	private LoanReport loanReport;
 	private double balance;
+	public List<MonthlyReport> getMonthlyReports() {
+		return monthlyReports;
+	}
 
+	public void setMonthlyReports(List<MonthlyReport> monthlyReports) {
+		this.monthlyReports = monthlyReports;
+	}
+
+	List<MonthlyReport> monthlyReports;
 	public DepositReport getDepositReport() {
 		return depositReport;
 	}
