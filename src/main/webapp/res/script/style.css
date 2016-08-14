@@ -186,7 +186,7 @@ img {
 }
 #contents > div.clearfix:first-child {
 	width: 940px;
-	padding: 30px 10px 0;
+	padding: 5px 5px 0;
 }
 #contents img {
 	border: 1px solid rgba(231, 231, 231, 0.8);
@@ -400,10 +400,10 @@ p a:hover {
 .sidebar {
 	float: left;
 	width: 290px;
-	padding-right: 18px;
+	padding-right: 5px;
 }
 .sidebar > div {
-	margin: 0 0 30px;
+	margin: 0 0 5px;
 }
 .sidebar > div h2 {
 	background-position: left bottom;
@@ -418,7 +418,7 @@ p a:hover {
 .sidebar > div p {
 	margin: 0;
 	padding-bottom: 24px;
-	padding-right: 30px;
+	padding-right: 5px;
 }
 .sidebar > div p span {
 	display: block;
@@ -609,4 +609,8 @@ p a:hover {
 }
 #footnote .connect a.pinterest {
 	background-position: 0 -196px;
+}
+
+.header-fixed {
+    width: 100% 
 }

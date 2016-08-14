@@ -296,7 +296,7 @@ body {
 
 .header-fixed > tbody > tr > td,
 .header-fixed > thead > tr > th {
-    width: 14%;
+    width: 10%;
     float: left;
 }
   

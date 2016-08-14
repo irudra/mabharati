@@ -1,9 +1,8 @@
 <%@taglib
 	uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 	<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<div id="report" class="container">
-  <h2>Table</h2>
-  <p>The .table-striped class adds zebra-striping to any table row within body (not available in IE8):</p>
+<div id="report">
+  <h2>Report table</h2>
  	<h2>Total balance Available: ${report.balance}</h2>
   <h2>Deposit Report</h2>
   <table class="table table-striped">
@@ -47,7 +46,7 @@
 
 <input type="button" onclick="tableToExcel('monthlyReport', 'name', 'Report.xls')" value="Export to Excel">
   <h2>Deposit Report</h2>
-  <table id="monthlyReport" class="table table-striped header-fixed">
+  <table id="monthlyReport" class="table table-striped table-hover table-bordered header-fixed">
       <thead>
       <tr>
         <th>Reporting Month</th>
@@ -62,7 +61,7 @@
     <tbody>
     <c:forEach items="${report.monthlyReports}" var="monthly">
 					<tr>
-        <td>${monthly.month}</td>
+        <td><fmt:formatDate type="date" value="${monthly.month}" /></td>
          <td>${monthly.deposite}</td>
         <td><fmt:formatNumber type="number" maxFractionDigits="2" value="${monthly.interestOnDeposite}"/></td>
         <td><fmt:formatNumber type="number" maxFractionDigits="2" value="${monthly.eligibleForLoan}"/></td>
