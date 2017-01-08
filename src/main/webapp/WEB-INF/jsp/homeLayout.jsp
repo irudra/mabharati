@@ -11,44 +11,46 @@
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 <link rel="icon" 
       type="image/png" 
-      href="/res/image/icon.png">
+      href="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/icon.png">
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <link rel="stylesheet" href="/res/script/mabharatistyle.css" />
  <link rel="stylesheet" href="/res/script/js-image-slider.css" />
  <script type="text/javascript" src="/res/script/js-image-slider.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>
    $(function() {
-    $( "#datepicker" ).datepicker();
-     $( ".menu" ).menu();
-     $("#tabs").tabs();
-      $( "button" ).button();
+    
   });
   </script>
 </head>
-<body class="tricolor" >
-<table cellpadding="2" cellspacing="2" Style=" margin-left: 50px;height:100%; width: 93%;">
-    <tr  Style="height:10%">
+<body>
+<table Style="width:100%">
+    <tr>
         <td colspan="2"><tiles:insertAttribute name="header" />
         </td>
     </tr>
     
-    <tr  Style="height:50%">
-        <td Style="width:30%" valign="top"><tiles:insertAttribute name="menu" /></td>
-        <td Style="width:70%; background-color: #001433;"><tiles:insertAttribute name="body" /></td>
+    <tr>
+        <td colspan="2" Style="background-color: #001433;"><tiles:insertAttribute name="body" /></td>
     </tr>
-    <tr cellpadding="4" Style="height:10%; width: 100%">
+    <tr>
+        <td colspan="2"><tiles:insertAttribute name="menu" />
+        </td>
+    </tr>
+    <tr cellpadding="4">
         <td colspan="2"><tiles:insertAttribute name="service" />
         </td>
     </tr>
-    <tr Style="height:20%">
+    <tr>
         <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortDescription" />
         </td>
         <td height="30" Style="width:50%" colspan="1"><tiles:insertAttribute name="shortEvents" />
         </td>
     </tr>
-    <tr Style="height:10%">
+    <tr>
         <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
         </td>
     </tr>

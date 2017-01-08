@@ -3,16 +3,29 @@
     Created on : May 8, 2013, 4:20:50 PM
     Author     : hemant
 --%>
-    <table cellpadding="2" style="height: 100%; width: 100%;">
-        <tbody>
-            <tr>
-                <td><a href="/aboutUS/vision" class="menulink">I am vision, here I will describe our vision in very short way. You can click on this panel to get full detail.</a></td>
-            </tr>
-            <tr>
-                <td><a href="/ourWork/howwe" class="menulink">I am how we. here I will describe, how we are working in very short way. You can click on this panel to get full detail.</a></td>
-            </tr>
-            <tr>
-                <td><a href="/aboutUS/family" class="menulink">I am family. here I will describe, our family working for us and supporting us. You can click on this panel to get full detail.</a></td>
-            </tr>
-        </tbody>
-    </table>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<div id="tour" class="bg-1">
+	<div class="container">
+		<h3 class="text-center">${pagedetails.page.homeMenu.heading}</h3>
+		<p class="text-center">${pagedetails.page.homeMenu.text}</p>
+		<div class="row text-center">
+			<c:forEach items="${pagedetails.page.homeMenu.thumbnails}"
+				var="thumbnail">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="${thumbnail.imageSource}" alt="Ma bharati pic"
+							width="400" height="300">
+						<p>
+							<strong>${thumbnail.heading}</strong>
+						</p>
+						<p>${thumbnail.caption}
+						</p>
+						<a href="${thumbnail.link}">${thumbnail.linkCaption}</a>
+					</div>
+				</div>
+			</c:forEach>
+
+		</div>
+
+	</div>
+</div>

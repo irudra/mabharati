@@ -14,8 +14,16 @@ public class PageDetails implements IPageDetails {
     IEnumPage[] sidePaneList;
     MessageFactory factory;
     List<HeaderMenu> headerList = new ArrayList<HeaderMenu>();
+    Object page;
+    public Object getPage() {
+		return page;
+	}
 
-    public List<HeaderMenu> getHeaderList() {
+	public void setPage(Object page) {
+		this.page = page;
+	}
+
+	public List<HeaderMenu> getHeaderList() {
         return headerList;
     }
 
