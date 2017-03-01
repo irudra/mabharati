@@ -2,9 +2,9 @@ package com.rudra.calc.bs.report.input;
 
 public class DepositInput {
 
+	private double initialDeposit =0;
 	private int subscriptionAmount;
 	private int sucscriptionNumber;
-
 	private float annualRateOfIntrestOnDeposit;
 
 	public int getSubscriptionAmount() {
@@ -30,6 +30,16 @@ public class DepositInput {
 	public void setAnnualRateOfIntrestOnDeposit(
 			float annualRateOfIntrestOnDeposit) {
 		this.annualRateOfIntrestOnDeposit = annualRateOfIntrestOnDeposit;
+	}
+
+	public void setInitialDeposit(double initialDeposit) {
+		// TODO Auto-generated method stub
+		this.initialDeposit = initialDeposit;
+	}
+	
+	public double getInitialDeposit() {
+		// TODO Auto-generated method stub
+		return initialDeposit;
 	}
 
 }

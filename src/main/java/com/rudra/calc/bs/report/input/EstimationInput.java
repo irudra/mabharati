@@ -6,6 +6,7 @@ public class EstimationInput {
 
 	private DepositInput depositInput;
 	private LoanInput loanInput;
+	private Date startDate = new Date();
 	private Date estimationDate;
 
 	public DepositInput getDepositInput() {
@@ -30,5 +31,13 @@ public class EstimationInput {
 
 	public void setEstimationDate(Date estimationDate) {
 		this.estimationDate = estimationDate;
+	}
+
+	public void setStartDate(Date startDate) {
+		this.startDate= startDate;
+	}
+	
+	public Date getStartDate() {
+		return startDate;
 	}
 }

@@ -8,7 +8,7 @@
   <table class="table table-striped">
       <thead>
       <tr>
-        <th>Total Investment Collected</th>
+        <th>Total Deposit Collected</th>
         <th>Deposit Amount</th>
         <th>Interest on Deposit</th>
         <th>Gross Deposit Amount</th>
@@ -16,10 +16,10 @@
     </thead>
     <tbody>
       <tr>
-        <td>${report.depositReport.totalInvestmentCollected}</td>
-        <td>${report.depositReport.depositAmount}</td>
-        <td>${report.depositReport.intrestOnDeposit}</td>
-        <td>${report.depositReport.grossDepostiAmount}</td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.depositReport.totalInvestmentCollected}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.depositReport.depositAmount}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.depositReport.intrestOnDeposit}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.depositReport.grossDepostiAmount}"/></td>
       </tr>
     </tbody>
   </table>
@@ -35,10 +35,10 @@
     </thead>
     <tbody>
       <tr>
-        <td>${report.loanReport.elgibleLoanAmount}</td>
-        <td>${report.loanReport.loandisbursed}</td>
-        <td>${report.loanReport.intrestForNextMonth}</td>
-        <td>${report.loanReport.intrestTillDate}</td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.loanReport.elgibleLoanAmount}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.loanReport.loandisbursed}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.loanReport.intrestForNextMonth}"/></td>
+        <td>< fmt:formatNumber type="number" maxFractionDigits="2" value="${report.loanReport.intrestTillDate}"/></td>
       </tr>
     </tbody>
   </table>

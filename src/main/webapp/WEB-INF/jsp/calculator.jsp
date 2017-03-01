@@ -18,12 +18,16 @@
 			<div class="sidebar">
 <form id="Calculator" >
 				<fieldset class="form-group">
+					<label for="name">Initial Deposit</label> <input type="text"
+						class="form-control" id="initialDeposit" placeholder="0">
+				</fieldset>
+				<fieldset class="form-group">
 					<label for="name">Subscription Amount</label> <input type="text"
 						class="form-control" id="subscriptionAmount" placeholder="500">
 				</fieldset>
 <fieldset class="form-group">
 					<label for="name"> Subscription Number</label>
-					<input type='text' id="sucscriptionNumber" placeholder="2000"/>
+					<input type='text' id="sucscriptionNumber" placeholder="2000" class="form-control"/>
 				</fieldset>
 
 				<fieldset class="form-group">
@@ -44,7 +48,11 @@
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label for="shortdescription">Estimation Date</label> <input type="text"
+					<label for="shortdescription">Start Date</label> <input type="date"
+						class="form-control" id="startDate" placeholder="dd/MM/yyyy">
+				</fieldset>
+				<fieldset class="form-group">
+					<label for="shortdescription">Estimation Date</label> <input type="date"
 						class="form-control" id="estimationDate" placeholder="dd/MM/yyyy">
 				</fieldset>
 				
