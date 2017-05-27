@@ -28,7 +28,6 @@
 			</div>
 			<div class="main">
 				<h1>Contact</h1>
-				<h2>Send Us a Quick Message</h2>
 				<p>
 					Have any doubt, wants to know more about us or anything. please send us message.
 				</p>

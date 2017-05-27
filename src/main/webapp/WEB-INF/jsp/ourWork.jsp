@@ -2,25 +2,32 @@
 		<div class="clearfix">
 			<div class="sidebar">
 				<div>
-					<h2>Student's Testimonials</h2>
+					<h2>News</h2>
 					<p>
-						&ldquo;You can remove any link to our website from this website template, you're free to use this website template without linking back to us.&rdquo; <span>- Jared Greene</span>
+						
 					</p>
 				</div>
 			</div>
 			<div class="main">
-				<h1>This is just a place holder.</h1>
+				
+				<b>Working to Make society better place to live.</b>
+				<br>
 				<div class="frame3">
 					<div class="box">
 						<img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/children.jpg" alt="Img" height="199" width="584">
 					</div>
 				</div>
 				<p>
-					Want an easier solution for a <a rel="nofollow" href="https://freewebsitetemplates.com/link/free-website/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Free Website">Free Website</a>? Head straight to <a rel="nofollow" href="https://freewebsitetemplates.com/link/wix/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Wix">Wix</a> and immediately start customizing your website!&nbsp;<a rel="nofollow" href="https://freewebsitetemplates.com/link/wix/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Wix">Wix</a> is an online website builder with a simple drag &amp; drop interface, meaning you do the work online and instantly publish to the web. Nothing to download, nothing to upload.&nbsp;All <a rel="nofollow" href="https://freewebsitetemplates.com/link/wix/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Wix">Wix</a> templates are fully customizable and free to use. Just pick one you like, click Edit, and enter the online editor. Change, add, and remove items as you like.
+					We are working in various social causes to make this society a better place.
+					We supports poor students in region, so no children is deprived of education and he should be
+					able to succeed in life despite of his unfortunate economic condition.
+					We are supporting small traders by actively managing a corporate society.
+					We are always looking for new ways to support farmers of hills region to produce better result.
+					Farmers should be able to sell their product in market with fair price.
+					<br>
+					We are always looking for new ways to help the society, so your feedback and suggestion are most welcome at <a href="/contactUs">contact us</a>.
 				</p>
-				<p>
-					<a rel="nofollow" href="https://freewebsitetemplates.com/link/wix/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Wix">Wix</a> also offers a ton of free design elements right inside the editor, like images, icons, animation files, and interactive widgets. Publish your <a rel="nofollow" href="https://freewebsitetemplates.com/link/free-website/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Free Website">Free Website</a> in minutes!&nbsp;This is just a place holder, so you can see what the site would look like.
-				</p>
+				
 			</div>
 		</div>
 	</div>

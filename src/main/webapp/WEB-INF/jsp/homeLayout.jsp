@@ -7,7 +7,11 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+  <meta name="description" content="Ma Bharati Social service Masi, we are working for underprivileged children, old age, farmers, small traders and  actively involved in other social reform in Uttarakhand region.">
+  <meta name="keywords" content="NGO, uttarakhand, children, education, farmer, old age, hills, pahad, self help, trader, society">
+  <meta name="author" content="Hemant Gaur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 <link rel="icon" 
       type="image/png" 
@@ -16,10 +20,13 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <link rel="stylesheet" href="/res/script/mabharatistyle.css" />
  <link rel="stylesheet" href="/res/script/js-image-slider.css" />
+ <link rel="stylesheet" href="/res/script/flexslider.css" />
  <script type="text/javascript" src="/res/script/js-image-slider.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="/res/script/jquery.flexslider-min.js"></script>
+  <script src="/res/script/slider.js"></script>
 <script>
    $(function() {
     

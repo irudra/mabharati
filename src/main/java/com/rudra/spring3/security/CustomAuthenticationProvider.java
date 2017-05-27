@@ -1,6 +1,5 @@
 package com.rudra.spring3.security;
  
-import java.net.UnknownHostException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -12,8 +11,6 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
 
-import com.mongodb.MongoClient;
-
 @Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
  
@@ -23,18 +20,13 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         String username = authentication.getName();
         String password = (String) authentication.getCredentials();
         System.out.println("running from custom");
-        try {
-			MongoClient mongo = new MongoClient( "localhost" , 27017 );
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
         if (!username.equals("admin")) {
-            throw new BadCredentialsException("Username not found.");
+            throw new BadCredentialsException("Username/password not valid.");
         }
  
         if (!password.equals("oothink1988")) {
-            throw new BadCredentialsException("Wrong password.");
+            throw new BadCredentialsException("Username/password not valid.");
         }
  
         List<Role> roles = new LinkedList<Role>();

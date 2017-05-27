@@ -1,8 +1,5 @@
 package com.rudra.spring3.controller;
 
-import java.net.UnknownHostException;
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -16,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mongodb.MongoClient;
 import com.rudra.spring.page.factory.IPageDetailsFactory;
 import com.rudra.spring.page.factory.PageDetailsFactory;
 import com.rudra.spring.page.value.Message;
@@ -30,16 +26,6 @@ public class LoginController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView login() {
-    	try {
-			MongoClient mongo = new MongoClient( "localhost" , 27017 );
-			List<String> dbs = mongo.getDatabaseNames();
-			for(String db : dbs){
-				System.out.println(db);
-			}
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
         return new ModelAndView("login");
     }
 
