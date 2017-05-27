@@ -30,16 +30,6 @@ public class LoginController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView login() {
-    	try {
-			MongoClient mongo = new MongoClient( "localhost" , 27017 );
-			List<String> dbs = mongo.getDatabaseNames();
-			for(String db : dbs){
-				System.out.println(db);
-			}
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
         return new ModelAndView("login");
     }
 

@@ -2,12 +2,6 @@
 		// HTML document is loaded. DOM is ready.
 		$(function() {
 
-			
-
-        	$('.date').datetimepicker({
-            	format: 'MM/DD/YYYY'
-            });
-            $('.date-time').datetimepicker();
 
 			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
 		  	$('a[href*=#]:not([href=#])').click(function() {

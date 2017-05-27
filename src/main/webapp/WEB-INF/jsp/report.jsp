@@ -3,7 +3,7 @@
 	<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <div id="report">
   <h2>Report table</h2>
- 	<h2>Total balance Available: ${report.balance}</h2>
+ 	<h2>Total balance Available: < fmt:formatNumber type="number" maxFractionDigits="2" value="${report.balance}"/></h2>
   <h2>Deposit Report</h2>
   <table class="table table-striped">
       <thead>

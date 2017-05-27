@@ -30,7 +30,7 @@ public class EstimationReportGenerator implements ReportGenerator {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(input.getStartDate());
 		double totalInterest = 0;
-		double loanRepayment = 0;
+		double loanRepayment = loanInput.getOutLoan();
 		double totalDeposite = depositInput.getInitialDeposit();
 		double interestOnDeposite = 0;
 		double eligibleForLoan = 0;
