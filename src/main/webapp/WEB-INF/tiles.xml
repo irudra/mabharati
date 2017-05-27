@@ -83,9 +83,8 @@
      <put-attribute name="body" value="/WEB-INF/jsp/thankYou.jsp" />
     </definition>
     
-    <definition name="login" extends="base.definition">
-        <put-attribute name="title" value="welcome" />
-        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+    <definition name="login" extends="empty.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/login.jsp" />
     </definition>
     <definition name="calculator" extends="empty.definition">
         <put-attribute name="content" value="/WEB-INF/jsp/calculator.jsp" />
