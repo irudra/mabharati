@@ -1,35 +1,34 @@
 <div id="contents">
 		<div class="clearfix">
-			<h1>Events</h1>
+			<h3><b>Events</b></h3>
+			<br>
 			<div class="frame2">
 				<div class="box">
 					<img src="https://raw.githubusercontent.com/rudralife/mabharati/UIchangeslocal/src/main/webapp/res/image/children.jpg" alt="Img" height="298" width="924">
 				</div>
 			</div>
-			<h2>We Have Free Templates for Everyone</h2>
+			
+			<b>Participation to active activity</b>
+			
 			<p>
-				Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What's more, they're absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the <a href="http://www.freewebsitetemplates.com/about/terms/">Terms of Use</a>. You can even remove all our links if you want to.
+				We organize many events to help people in need, one of the main event is annual <b>Chetriya gyan Vigan pariksya (Local social and science Examination)</b>. 
+				We also organize a annual meet of trader associated with us for the future plans to help farmers in the region or activities to help economy in the Hills.
 			</p>
-			<h2>We Have More Templates for You</h2>
+			
+			<b>Chetriya gyan Vigan pariksya (Local social and science Examination)</b>
+			<br>
 			<p>
-				Looking for more templates? Just browse through all our <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> and find what you're looking for. But if you don't find any website template you can use, you can try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. Maybe you're looking for something different, something special. And we love the challenge of doing something different and something special.
+				We believe in recognizing the best talent, so he/she will get financial/social/ mental support to achieve greatness in life.
+				We invite all the school in the region to participate in this competition and recognize Top 5 in a special Function.
+				<br>
+				In this examination we try to assess below qualities of participants:
+				<ul>
+					<li><b>Logical ability</b>: Logical ability is the main factor in student life as it predicts the ability to understand real world problems.</li>
+					<li><br><b>Science</b> : Science is the foundation of modern world, So we want students to learn and excel in this area.</li>
+					<li><br><b>Social Values</b>: human is a social animal, so our children should be aware of the social responsibility, we have in our society.</li>
+					<li><br><b>Regional Knowledge</b>: We believe children should take interest in local history, places and other social norms in the region, which helps them to know their region better and connects with their surroundings. </li>
+				</ul>
 			</p>
-			<h2>Be Part of Our Community</h2>
-			<p>
-				If you're experiencing issues and concerns about this website template, join the discussion <a href="http://www.freewebsitetemplates.com/forums/">on our forum</a> and meet other people in the community who share the same interests with you.
-			</p>
-			<h2>Template details</h2>
-			<p>
-				Design version 11. Code version 6.
-			</p>
-			<p>
-				Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/discuss/lawfirm/">Law Firm Web Template</a>.
-			</p>
-			<p>
-				Website Template design by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.
-			</p>
-			<p>
-				Please feel free to remove some or all the text and links of this page and replace it with your own About content.
-			</p>
+			
 		</div>
 	</div>

@@ -2,7 +2,11 @@
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+  <meta name="description" content="Ma Bharati Social service Masi, we are working for underprivileged children, old age, farmers, small traders and  actively involved in other social reform in Uttarakhand region.">
+  <meta name="keywords" content="NGO, uttarakhand, children, education, farmer, old age, hills, pahad, self help, trader, society">
+  <meta name="author" content="Hemant Gaur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <sec:csrfMetaTags/>
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 <link rel="icon" 

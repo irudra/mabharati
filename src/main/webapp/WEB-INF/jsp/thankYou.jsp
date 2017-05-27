@@ -1,92 +1,102 @@
 <div id="contents">
-		<div class="clearfix">
-			<div class="sidebar">
-				<div>
-					<h2>Our Lawyers</h2>
-					<p>
-						This website template has been designed by <a href="https://freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-					</p>
-					<p>
-						You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
-					</p>
-					<p>
-						If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="https://freewebsitetemplates.com/forums/">Forums</a>.
-					</p>
-				</div>
-				<div>
-					<h2>Client Testimonials</h2>
-					<p>
-						&ldquo;You can remove any link to our website from this website template, you're free to use this website template without linking back to us.&rdquo; <span>- Jared Greene</span>
-					</p>
-				</div>
+	<div class="clearfix">
+		<div class="sidebar">
+			<div>
+				<h2>Our Family</h2>
+				<p>
+					We are a group of people working in Uttarakhand, <br>We
+					sincerely thanks to all great personalities who supported, guided
+					and believed us in our nobel journey.
+				</p>
 			</div>
-			<div class="main">
-				<h1>This is just a place holder.</h1>
-				<div class="section">
-					<h2>This is just a place holder.</h2>
-					<ul>
-						<li>
-							<div class="frame4">
-								<div class="box">
-									<img src="images/thumbnail-sideview.jpg" alt="Img" height="94" width="90">
-								</div>
+			<div>
+				<h2>News</h2>
+				<p></p>
+			</div>
+		</div>
+		<br> <br>
+		<div class="main">
+			<h1>Thanks to all.</h1>
+			<div class="section">
+				<b>Amazing personalities who created, supported and believed in
+					us.</b> <br>
+				<ul>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
 							</div>
-							<p>
-								<b>This is just a place holder.</b> This website template has been designed by <a href="https://freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-							</p>
-						</li>
-						<li>
-							<div class="frame4">
-								<div class="box">
-									<img src="images/thumbnail-focus.jpg" alt="Img" height="94" width="90">
-								</div>
+						</div>
+						<p>
+							<b>Founder : Mr Puran Chandra Gaur</b> Thanks to our founder to
+							provide us with this nobel vision to make this world a better
+							place.
+						</p>
+					</li>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
 							</div>
-							<p>
-								<b>This is just a place holder.</b> Want an easier solution for a <a rel="nofollow" href="https://freewebsitetemplates.com/link/free-website/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Free Website">Free Website</a>? Head straight to <a rel="nofollow" href="https://freewebsitetemplates.com/link/wix/" data-ga-event="click" data-ga-category="Text Link" data-ga-action="Ad Click" data-ga-label="Previews - Wix">Wix</a> and immediately start customizing your website!
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div class="section">
-					<h2>This is just a place holder.</h2>
-					<ul>
-						<li>
-							<div class="frame4">
-								<div class="box">
-									<img src="images/thumbnail-smile.jpg" alt="Img" height="94" width="90">
-								</div>
+						</div>
+						<p>
+							<b>Co Founder : Mr Lalit Mohan Joshi</b> Sincere thanks to Joshi
+							ji for supporting/believing/ guiding this Nobel cause.
+						</p>
+					</li>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
 							</div>
-							<p>
-								<b>This is just a place holder.</b> You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div class="section last-child">
-					<h2>This is just a place holder.</h2>
-					<ul>
-						<li>
-							<div class="frame4">
-								<div class="box">
-									<img src="images/thumbnail-frontview.jpg" alt="Img" height="94" width="90">
-								</div>
+						</div>
+						<p>
+							<b>Mr Mahesh Lal Verma</b> Sincere thanks to Verma ji for
+							supporting/believing/ guiding this Nobel cause.
+						</p>
+					</li>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
 							</div>
-							<p>
-								<b>This is just a place holder.</b> If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="https://freewebsitetemplates.com/forums/">Forums</a>.
-							</p>
-						</li>
-						<li>
-							<div class="frame4">
-								<div class="box">
-									<img src="images/thumbnail-happy.jpg" alt="Img" height="94" width="90">
-								</div>
+						</div>
+						<p>
+							<b>Mr Shivendra Fuloria</b> Sincere thanks to Fuloria ji for
+							supporting/believing/ guiding this Nobel cause.
+						</p>
+					</li>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
 							</div>
-							<p>
-								<b>This is just a place holder.</b> This is just a place holder, so you can see what the site would look like.
-							</p>
-						</li>
-					</ul>
-				</div>
+						</div>
+						<p>
+							<b>Mr Shyam Charan Patni</b> Sincere thanks to Patni ji for
+							supporting/believing/ guiding this Nobel cause. Patni ji is main
+							source of guidance and Event manager for most of activities.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<h2>Developer thanks.</h2>
+				<ul>
+					<li>
+						<div class="frame4">
+							<div class="box">
+								<img src="/res/image/icon.png" alt="Img" height="94" width="90">
+							</div>
+						</div>
+						<p>
+							<b>Site developer : Mr Hemant Gaur</b> Hemant is software
+							consultant in It industry and developed this web site, He is also
+							a active member in organizing events and other activities.
+						</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+</div>
