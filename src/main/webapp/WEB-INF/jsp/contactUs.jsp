@@ -61,7 +61,6 @@
 		    
 		    var header = $("meta[name='_csrf_header']").attr("content");
 		    var token = $("meta[name='_csrf']").attr("content");
-		    alert(JSON.stringify(data));
         $.ajax({
             type: frm.attr('method'),
             url: frm.attr('action'),

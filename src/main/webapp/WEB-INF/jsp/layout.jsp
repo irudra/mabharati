@@ -31,7 +31,7 @@
     </tr>
     <tr>
     <tr >
-        <td Style="width:20%"><tiles:insertAttribute name="menu" />
+        <!--  --><td Style="visibility=hidden; width:20%"><tiles:insertAttribute name="menu" />
         </td>
     </tr>
         <tr>
